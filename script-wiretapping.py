@@ -34,7 +34,7 @@ mostrar_fuente(S1)
 
 
 
-with open('output.csv', 'w') as f:
+with open('output.csv', 'w', newline='') as f:
     writer = csv.writer(f)
     writer.writerow(('Direccion', 'Protocolo', 'Apariciones'))
     for (t, count) in S1.items():
