@@ -29,7 +29,7 @@ def callback(pkt):
         S1[s_i] += 1
 
 
-sniff(count = 101, prn=callback)
+sniff(count = 20000, prn=callback)
 mostrar_fuente(S1)
 
 
