@@ -5,15 +5,6 @@ import csv
 
 S1 = {}
 
-def prob(e, S):
-    return S[e]/sum(S.values())
-
-def info(e, S):
-    return -math.log2(prob(e, S))
-
-def entropia(S):
-    return sum([info(e, S) * prob(e, S) for e in S])
-
 def mostrar_fuente(S):
     N = sum(S.values())
     simbolos = sorted(S.items(), key=lambda x: -x[1])
