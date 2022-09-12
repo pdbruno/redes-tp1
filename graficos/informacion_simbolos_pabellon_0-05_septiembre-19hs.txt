@@ -1,0 +1,11 @@
+\begin{tabular}{lr}
+\toprule
+         Símbolo &  Información \\
+\midrule
+  (UNICAST,2048) &     0.380540 \\
+(BROADCAST,2048) &     2.552579 \\
+ (UNICAST,34525) &     4.327710 \\
+  (UNICAST,2054) &     7.078259 \\
+(BROADCAST,2054) &     7.895395 \\
+\bottomrule
+\end{tabular}
