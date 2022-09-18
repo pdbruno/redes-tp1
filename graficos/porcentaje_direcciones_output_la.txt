@@ -1,0 +1,8 @@
+\begin{tabular}{lr}
+\toprule
+Dirección &  Porcentaje \\
+\midrule
+Broadcast &       2.035 \\
+  Unicast &      97.965 \\
+\bottomrule
+\end{tabular}
